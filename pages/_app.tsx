@@ -1,13 +1,10 @@
-import "styles/globals.css";
+import Head from "components/Head";
 import type { AppProps } from "next/app";
-import { DefaultSeo } from "next-seo";
-
-import DEFAULT_SEO from "config/default-seo.config";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <DefaultSeo {...DEFAULT_SEO} />
+      <Head />
       <Component {...pageProps} />
     </>
   );
