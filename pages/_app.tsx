@@ -1,11 +1,14 @@
-import Head from "components/Head";
+import Head from "components/common/Head";
+import Layout from "components/common/Layout";
 import type { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
