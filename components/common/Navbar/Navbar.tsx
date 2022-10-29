@@ -1,7 +1,11 @@
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
-  return <nav className={styles.root}>Navbar here</nav>;
+  return (
+    <div className={styles.root}>
+      <nav className={styles.nav}>Navbar here</nav>
+    </div>
+  );
 };
 
 export default Navbar;
