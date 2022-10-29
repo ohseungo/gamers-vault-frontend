@@ -1,5 +1,6 @@
 .root {
-  position: sticky;
-  top: 0;
-  background-color: grey;
+  @apply sticky top-0;
+  background-color: var(--primary);
+  height: 60px;
+  border-bottom: 1px solid var(--elevated-seperator);
 }
