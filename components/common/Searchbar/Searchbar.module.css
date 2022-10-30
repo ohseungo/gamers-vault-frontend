@@ -1,5 +1,5 @@
 .root {
-  @apply relative;
+  @apply relative w-full;
   border: 1px solid var(--secondary-border);
 }
 
