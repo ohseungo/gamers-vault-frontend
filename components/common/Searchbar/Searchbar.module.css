@@ -1,0 +1,16 @@
+.root {
+  @apply relative;
+  border: 1px solid var(--secondary-border);
+}
+
+.input {
+  @apply px-3 py-2 w-full;
+}
+
+.iconContainer {
+  @apply absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none;
+}
+
+.icon {
+  @apply h-5 w-5;
+}

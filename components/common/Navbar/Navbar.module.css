@@ -2,7 +2,7 @@
   @apply sticky top-0;
   background-color: var(--primary);
   height: var(--desktop-navbar-height);
-  border-bottom: 1px solid var(--elevated-seperator);
+  border-bottom: 1px solid var(--secondary-border);
 
   display: flex;
   /* flex-direction: column; */

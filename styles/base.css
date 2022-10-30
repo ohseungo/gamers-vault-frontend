@@ -1,6 +1,6 @@
 :root {
   --primary: #ffffff;
-  --elevated-seperator: #dadada;
+  --secondary-border: #dadada;
 
-  --desktop-navbar-height: 60px;
+  --desktop-navbar-height: 75px;
 }
