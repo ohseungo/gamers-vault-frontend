@@ -11,5 +11,8 @@
 }
 
 .nav {
-  /* height: var(--desktop-navbar-height); */
+  @apply w-full max-w-3xl	flex flex-row justify-between
+  
+  /* max-width: 48rem; */
+  /* height: var(--desktop-navbar-height); */;
 }
