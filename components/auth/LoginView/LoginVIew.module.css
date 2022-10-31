@@ -1,0 +1,5 @@
+.root {
+  @apply bg-primary w-full max-w-lg flex flex-col items-center;
+
+  border: 1px solid var(--secondary-border);
+}

@@ -2,7 +2,10 @@ import style from "./LoginView.module.css";
 
 const LoginView = () => {
   return (
-    <div>
+    <div className={style.root}>
+      <div>LoginView</div>
+      <div>LoginView</div>
+      <div>LoginView</div>
       <div>LoginView</div>
     </div>
   );

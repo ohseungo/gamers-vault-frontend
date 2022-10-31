@@ -77,3 +77,7 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+#__next {
+  height: 100%;
+}

@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row justify-center">
       <LoginView />
     </div>
   );

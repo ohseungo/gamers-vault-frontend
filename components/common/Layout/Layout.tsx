@@ -11,7 +11,7 @@ interface Props {
 const Layout = ({ children, pageProps }: Props) => {
   const isHome = pageProps?.home;
   return (
-    <div>
+    <div className="bg-secondary h-full">
       {!isHome && <Navbar />}
       <main>{children}</main>
     </div>
