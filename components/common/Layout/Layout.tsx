@@ -13,7 +13,7 @@ const Layout = ({ children, pageProps }: Props) => {
   return (
     <div className="bg-secondary h-full">
       {!isHome && <Navbar />}
-      <main>{children}</main>
+      {children}
     </div>
   );
 };
