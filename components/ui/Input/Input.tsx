@@ -1,7 +1,9 @@
+import style from "./Input.module.css";
+
 const Input = () => {
   return (
-    <label>
-      <input />
+    <label className={style.root}>
+      <input className={style.input} />
     </label>
   );
 };

@@ -1,0 +1,9 @@
+.root {
+  @apply w-full;
+}
+
+.input {
+  @apply bg-secondary w-full;
+
+  border: 1px solid var(--secondary-border);
+}
