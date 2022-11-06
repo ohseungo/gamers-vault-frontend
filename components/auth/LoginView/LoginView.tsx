@@ -6,7 +6,7 @@ const LoginView = () => {
     <div className={style.root}>
       <h1>Gamers Vault</h1>
       <Input type="email" placeholder="이메일" />
-      <Input type="password" placeholder="비밀번호" />
+      <Input type="password" placeholder="비밀번호" className="mt-2" />
     </div>
   );
 };

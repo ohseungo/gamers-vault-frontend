@@ -1,3 +1,4 @@
+import cn from "classnames";
 import { InputHTMLAttributes } from "react";
 import style from "./Input.module.css";
 
@@ -6,6 +7,7 @@ interface Props extends InputHTMLAttributes<HTMLInputElement> {
   onChange?: (...args: any[]) => any;
 }
 const Input = ({ className, onChange, ...rest }: Props) => {
+  const inputClassName = cn(style.input, className);
   const handleOnChange = (event: any) => {
     if (onChange) {
       onChange(event.target.value);
@@ -13,7 +15,7 @@ const Input = ({ className, onChange, ...rest }: Props) => {
   };
   return (
     <label className={style.root}>
-      <input className={style.input} onChange={handleOnChange} {...rest} />
+      <input className={inputClassName} onChange={handleOnChange} {...rest} />
     </label>
   );
 };
