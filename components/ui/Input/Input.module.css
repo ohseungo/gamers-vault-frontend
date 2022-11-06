@@ -1,9 +1,9 @@
 .root {
-  @apply w-full;
+  @apply w-full max-w-xs;
 }
 
 .input {
-  @apply bg-secondary w-full px-3 py-2 mt-2 max-w-xs;
+  @apply bg-secondary w-full px-3 py-2 mt-2;
 
   border: 1px solid var(--secondary-border);
 }
