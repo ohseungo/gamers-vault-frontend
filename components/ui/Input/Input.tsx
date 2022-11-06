@@ -2,9 +2,10 @@ import { InputHTMLAttributes } from "react";
 import style from "./Input.module.css";
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
+  className?: string;
   onChange?: (...args: any[]) => any;
 }
-const Input = ({ onChange, ...rest }: Props) => {
+const Input = ({ className, onChange, ...rest }: Props) => {
   const handleOnChange = (event: any) => {
     if (onChange) {
       onChange(event.target.value);
