@@ -3,7 +3,7 @@
 }
 
 .input {
-  @apply bg-secondary w-full;
+  @apply bg-secondary w-full px-3 py-2 mt-2 max-w-xs;
 
   border: 1px solid var(--secondary-border);
 }
