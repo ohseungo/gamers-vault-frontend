@@ -1,5 +1,5 @@
 .root {
   @apply cursor-pointer inline-flex bg-primary-2 text-primary
-  px-10 py-5 text-center justify-center
+  px-10 py-3 text-center justify-center
   border border-transparent items-center text-sm font-semibold;
 }
