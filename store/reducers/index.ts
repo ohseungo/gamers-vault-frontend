@@ -4,7 +4,10 @@ import HYDRATE from "next-redux-wrapper";
 const rootReducer = (state: any, action: any) => {
   switch (action.type) {
     case HYDRATE:
-      return action.payload;
+      return {
+        ...state,
+        ...action.payload,
+      };
     default:
       return combineReducers({
         user: userReducer,
@@ -13,3 +16,4 @@ const rootReducer = (state: any, action: any) => {
 };
 
 export default rootReducer;
+export type RootState = ReturnType<typeof rootReducer>;

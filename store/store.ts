@@ -1,7 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./reducers";
 
-const store = configureStore({ reducer: rootReducer });
-export type RootState = ReturnType<typeof store.getState>;
+import { createWrapper } from "next-redux-wrapper";
 
-export default store;
+const makeStore = () =>
+  configureStore({
+    reducer: rootReducer,
+    devTools: process.env.NODE_ENV === "development",
+  });
+
+const wrapper = createWrapper(makeStore);
+export default wrapper;
