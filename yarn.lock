@@ -154,7 +154,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@redux-devtools/extension@*":
+"@redux-devtools/extension@^3.2.3":
   version "3.2.3"
   resolved "https://registry.npmjs.org/@redux-devtools/extension/-/extension-3.2.3.tgz"
   integrity sha512-y90IIqdQF6kIkP4KfBCfiFrnu9KMrEPUmcnb5A3v12tjfwRJUXecX8vCEbFqqJLjOomvVmis0Aal7QdFjk6CRQ==
