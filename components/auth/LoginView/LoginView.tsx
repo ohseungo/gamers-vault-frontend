@@ -1,12 +1,17 @@
 import Button from "components/ui/Button";
 import Input from "components/ui/Input";
 import React from "react";
+
+import { useDispatch } from "react-redux";
+import { login } from "store/reducers/userReducer";
+
 import style from "./LoginView.module.css";
 
 const LoginView = () => {
+  const dispatch = useDispatch();
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log("!");
+    dispatch(login({ userName: "email" }));
   };
   return (
     <div className={style.root}>
