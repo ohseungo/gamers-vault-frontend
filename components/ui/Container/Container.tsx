@@ -7,8 +7,8 @@ interface Props {
 const Container = ({ className, children }: Props) => {
   const rootClassName = cn(className, {});
   return (
-    <div className="flex flex-col justify-center h-full">
-      <div className="flex flex-row justify-center">{children}</div>
+    <div className="flex flex-row justify-center bg-slate-400">
+      <>{children}</>
     </div>
   );
 };
