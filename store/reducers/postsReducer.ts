@@ -20,13 +20,22 @@ const initialState = {
 } as PostsState;
 
 const dummyPost = {
-  id: "2",
+  id: "1",
   CreatedUser: {
     id: "friend",
-    name: "friend",
+    name: "내 친구",
   },
   content: "추가 테스트",
 } as Post;
+
+const dummyPost2 = {
+  id: "2",
+  CreatedUser: {
+    id: "me",
+    name: "나",
+  },
+  content: "추가 테스트 222",
+};
 
 const postsSlice = createSlice({
   name: "posts",
