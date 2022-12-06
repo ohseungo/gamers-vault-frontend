@@ -44,7 +44,7 @@ const postsSlice = createSlice({
     addPost(state, action: PayloadAction<Post>) {
       return {
         ...state,
-        posts: [dummyPost, ...state.posts],
+        posts: [dummyPost, dummyPost2, ...state.posts],
       };
     },
   },
