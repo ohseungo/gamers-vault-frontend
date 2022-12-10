@@ -1,5 +1,5 @@
 const FeedList = () => {
-  return <div>List</div>;
+  return <div>FeedList</div>;
 };
 
 export default FeedList;
