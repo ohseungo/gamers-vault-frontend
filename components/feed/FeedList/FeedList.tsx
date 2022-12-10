@@ -1,5 +1,12 @@
+import Feed from "../Feed/Feed";
+
 const FeedList = () => {
-  return <div>FeedList</div>;
+  return (
+    <div>
+      <Feed />
+      <Feed />
+    </div>
+  );
 };
 
 export default FeedList;
